@@ -1,0 +1,48 @@
+@font-face {
+    font-family: 'Google Sans';
+    src: url(../fonts/gsm.ttf);
+}
+
+* {
+    font-family: 'Google Sans';
+    text-decoration: none;
+    border: none;
+    color: #282828;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+input {
+    width: 34%;
+    height: 36px;
+    padding: 8px 12px;
+    border-radius: 36px;
+    margin: 16px 33%;
+    border: 1px solid #282828;
+}
+
+input:focus {
+    box-shadow: inset 0px 0px 2px 1px #ff4335;
+    border: 1.6px solid #ff4335;
+}
+
+.width100 {
+    width: 100%;
+}
+
+.video-embed-loading, .video-title-loading, .video-description-loading {
+    background-color: #d7dbdd;
+    border-radius: 8px;
+}
+
+.video-title-loading, .video-description-loading {
+    height: 64px;
+    width: 160px;
+    margin: 8px;
+}
+
+.video-description-loading {
+    width: 320px;
+}
